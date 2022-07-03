@@ -1,0 +1,28 @@
+.navbar {
+  background: rgb(9 13 61);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  right: 50px;
+  width: 100%;
+}
+.nav-items {
+  display: flex;
+}
+ul li{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  list-style-type: none;
+}
+.nav{
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+.nav:hover{
+  color: rgb(194, 194, 220);
+  background: rgb(12, 17, 72);
+}
